@@ -1,4 +1,4 @@
-name: test_YP workflow
+name: YaMDb workflow
 
 on:
   push:
