@@ -1,4 +1,4 @@
-name: yamdb_workflow
+name: Yamdb workflow
 
 on:
   push:
@@ -70,7 +70,6 @@ jobs:
           sudo docker-compose up -d
           sudo docker-compose exec -t web python manage.py migrate
           sudo docker-compose exec -t web python manage.py collectstatic --no-input
-          sudo docker-compose exec -t web python manage.py fill_db
   send_message:
     runs-on: ubuntu-latest
     needs: deploy
