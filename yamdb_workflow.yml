@@ -2,7 +2,8 @@ name: yamdb_workflow
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   tests:
@@ -14,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-Python@v2
         with:
-          python-version: 3.7
+          python-version: 3.9
       - name: Install requirements
         run: |
           python -m pip install --upgrade pip
