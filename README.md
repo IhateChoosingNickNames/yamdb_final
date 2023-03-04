@@ -114,4 +114,4 @@ All available endpoints and responses you can find in documentation:
 
     # http://your_ip:your_port/redoc
 
-![my workflow](https://github.com/IhateChoosingNickNames/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+[![YaMDb workflow](https://github.com/IhateChoosingNickNames/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/IhateChoosingNickNames/yamdb_final/actions/workflows/yamdb_workflow.yml)
