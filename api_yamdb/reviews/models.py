@@ -66,7 +66,6 @@ class Title(models.Model):
         null=True,
         related_name="title",
     )
-    smth = models.CharField(max_length=128, default="111")
 
     def __str__(self):
         return self.name[:LIMIT]
