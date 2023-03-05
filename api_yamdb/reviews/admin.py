@@ -19,20 +19,20 @@ class GenreAdmin(admin.ModelAdmin):
 
 @admin.register(Title)
 class TitleAdmin(admin.ModelAdmin):
-    list_display = ("pk", "name", "year", "description", "category")
+    list_display = ("pk", "name")
     search_fields = ("name",)
     empty_value_display = "-пусто-"
 
 
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
-    list_display = ("pk", "author", "text", "pub_date", "score", "title")
+    list_display = ("pk", "author")
     search_fields = ("author",)
     empty_value_display = "-пусто-"
 
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    list_display = ("pk", "author", "text", "pub_date", "review")
+    list_display = ("pk", "author")
     search_fields = ("author",)
     empty_value_display = "-пусто-"
