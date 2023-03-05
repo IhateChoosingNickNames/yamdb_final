@@ -19,7 +19,7 @@ class GenreAdmin(admin.ModelAdmin):
 
 @admin.register(Title)
 class TitleAdmin(admin.ModelAdmin):
-    list_display = ("pk", "name", "year", "description", "category")
+    list_display = ("pk", "name", "year", "description", "category", "smth")
     search_fields = ("name",)
     empty_value_display = "-пусто-"
 
