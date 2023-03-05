@@ -5,6 +5,7 @@ from django.utils.translation import gettext_lazy as _
 
 
 def year_validator(value):
+    """Валидация вводимого года."""
     if value > datetime.datetime.now().year:
         raise ValidationError(
             _("Задан некорректный год."),
