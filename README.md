@@ -1,7 +1,7 @@
 # YamDb
 [![YaMDb workflow](https://github.com/IhateChoosingNickNames/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/IhateChoosingNickNames/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-Description: API for YamDb
+Description: API for YamDb(service for collecting reviews with rating for any objects - ex. books, films and etc)
 
 Used technologies:
 -
