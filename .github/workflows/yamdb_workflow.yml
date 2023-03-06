@@ -3,6 +3,7 @@ name: Yamdb workflow
 on:
   push:
     branches:
+      # для тестов ЯП тут обязательно нужен мастер - там злая регулярка
       - master
       - "*"
 
