@@ -39,7 +39,7 @@ Create .env file infra/.env and fill it with required keys:
 
 1. Install requirements:
     #### pip install -r requirements.txt
-2. Go to ../api_yamdb/ migrate:
+2. Go to ../api_yamdb/ and migrate:
     #### python manage.py migrate
 3. Fill the DB with prepared CSV-files:
     #### python manage.py fill_db
